@@ -55,7 +55,7 @@ public class MainActivity extends Activity {
             humidity.setText("");
             pressure.setText("");
             xml_text.setText("");
-            Toast.makeText(this, "Wybierz coś normalnego !!", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getString(R.string.cos_normalnego), Toast.LENGTH_LONG).show();
         }
         else if (obj.fetchException){
             location.setText("");

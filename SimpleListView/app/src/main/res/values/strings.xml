@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name="hello">Hello World, ListViewActivity1!</string>
+        <string name="app_name">ListViewDemo</string>
+         <string name="action_settings">Settings</string>
+    <string name="image">Image</string>
+    <string name="test_image_title">Tytuł</string>
+    <string name="test_image_date">Data zdjęcia</string>
+    <string name="test_image_description">opis zdjęcia</string>
+    <string name="Data_zdjecia">Data zdjęcia</string>
+    <string-array name="sports_array">
+            <item>Shuttle Badminton</item>
+            <item>Tennis</item>
+            <item>FootBall</item>
+            <item>Basket Ball</item>
+            <item>Table Tennis</item>
+            <item>Chess</item>
+            <item>Hockey</item>
+        </string-array>
+    </resources>
+

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff09c466">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="@string/image"
+        android:src="@drawable/main_nasa_image"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <TextView
+        android:id="@+id/tytulObrazka"
+        android:text="Tytuł"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageView"
+        android:paddingBottom="10dp"
+        android:textColor="#CC0033"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/dataObrazka"
+        android:text="@string/Data_zdjecia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tytulObrazka"
+        android:layout_toRightOf="@+id/imageView"
+        android:paddingLeft="10dp"
+        android:textColor="#3399FF"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Url"
+        android:id="@+id/urlObrazka"
+        android:layout_below="@+id/dataObrazka"
+        android:layout_toRightOf="@+id/imageView"
+        android:textColor="#ffff831a" />
+</RelativeLayout>
+
+
+
+<!--LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/image"
+            android:id="@+id/imageView" />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tytuł"
+            android:id="@+id/tytulObrazka"
+            android:background="#ffc04d0f" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data"
+            android:id="@+id/dataObrazka"
+            android:background="#ff9fff07" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="URL"
+            android:id="@+id/urlObrazka"
+            android:textColor="#ff0722ff"
+            android:background="#ffffaa06" />
+    </LinearLayout>
+
+</LinearLayout-->

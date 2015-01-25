@@ -3,12 +3,8 @@
 
     <string name="app_name">Nasa Daily Image</string>
     <string name="action_settings">Settings</string>
-    <string name="test_image_title">Satellite Picture Shows Snow-covered U.S. Deep Freeze</string>
-    <string name="test_image_date">Thu, 08 Jan 2015 12:00:00 EDT</string>
-    <string name="test_image_description">NOAA\&#039;s GOES-East satellite provided a look at the frigid eastern two-thirds of the U.S. on Jan. 7, 2015, that shows a blanket of northern snow, lake-effect snow from the Great Lakes and clouds behind the Arctic cold front.
-
-A visible picture captured at 11 a.m. EST showed the effects of the latest Arctic outbreak. The cold front that brought the Arctic air moved as far south as Florida, and stretched back over the Gulf of Mexico and just west of Texas. The image shows clouds behind the frontal boundary stretching from the Carolinas west over the Heartland. Farther north, a wide band of fallen snow covers the ground from New England west to Montana, with rivers appearing like veins. The GOES-East satellite image also shows wind-whipped lake-effect snows off the Great Lakes, blowing to the southeast. Meanwhile, Florida, the nation\&#039;s warm spot appeared almost cloud-free.
-
-Image Credit: NASA/NOAA GOES Project</string>
+    <string name="test_image_title">Tytuł</string>
+    <string name="test_image_date">Data zdjęcia</string>
+    <string name="test_image_description">opis zdjęcia</string>
 
 </resources>

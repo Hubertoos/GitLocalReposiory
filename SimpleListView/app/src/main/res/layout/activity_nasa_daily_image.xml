@@ -1,0 +1,65 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="1">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Refresh"
+                android:onClick="open"
+                android:id="@+id/button"
+                android:layout_weight="0.91"
+                android:background="#ff3eff10"
+                android:textColor="#ff812e08" />
+
+            <Button
+                android:layout_width="182dp"
+                android:layout_height="wrap_content"
+                android:text="RESET VIEW"
+                android:id="@+id/buttonReset"
+                android:layout_weight="0.07"
+                android:onClick="onButtonResetClick"
+                android:textColor="#ffff1a0c"
+                android:background="#ffd5ff0d" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/test_image_title"
+            android:id="@+id/imageTitle"
+            android:textColor="#ff0f994c" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/test_image_date"
+            android:id="@+id/imageDate" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageDisplay"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/test_image_description"
+            android:id="@+id/imageDescription" />
+    </LinearLayout>
+</ScrollView>
+
